@@ -1,0 +1,3 @@
+16,00001234,220815,12599,Please update your credit card on file with HQ.
+16,00004567,210815,25000,Dues amount includes late fees.
+16,00004567,,25000,

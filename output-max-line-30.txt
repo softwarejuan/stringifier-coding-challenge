@@ -1,0 +1,6 @@
+16,00001234,220815,12599,Pleas
+88,e update your credit card o
+88,n file with HQ.
+16,00004567,210815,25000,Dues 
+88,amount includes late fees.
+16,00004567,,25000,

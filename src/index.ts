@@ -1,3 +1,5 @@
+import fs from "fs";
+
 interface IMembership {
   notes: string | null;
   renewal_date: string | null;
@@ -52,26 +54,47 @@ const stringfier = (memberships: Array<IMembership>, max_line_length: number = 6
     .join("\n");
 };
 
+const max80 = stringfier(inputJsonData, 80);
 console.log("max_line_length is 80: ----------------- ");
 console.log("");
 console.log("");
-console.log(stringfier(inputJsonData, 80));
+console.log(max80);
 console.log("-----------------------");
 console.log("");
 console.log("");
+fs.writeFile("output-max-line-80.txt", max80, function (err) {
+  if (err) {
+    return console.log(err);
+  }
+  console.log("The output-max-line-80.txt file was saved!");
+});
 
+const max32 = stringfier(inputJsonData, 32);
 console.log("max_line_length is 32: ----------------- ");
 console.log("");
 console.log("");
-console.log(stringfier(inputJsonData, 32));
+console.log(max32);
 console.log("-----------------------");
 console.log("");
 console.log("");
+fs.writeFile("output-max-line-32.txt", max32, function (err) {
+  if (err) {
+    return console.log(err);
+  }
+  console.log("The output-max-line-32.txt file was saved!");
+});
 
+const max30 = stringfier(inputJsonData, 30);
 console.log("max_line_length is 30: ----------------- ");
 console.log("");
 console.log("");
-console.log(stringfier(inputJsonData, 30));
+console.log(max30);
 console.log("-----------------------");
 console.log("");
 console.log("");
+fs.writeFile("output-max-line-30.txt", max30, function (err) {
+  if (err) {
+    return console.log(err);
+  }
+  console.log("The output-max-line-30.txt file was saved!");
+});

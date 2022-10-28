@@ -1,0 +1,6 @@
+16,00001234,220815,12599,Please 
+88,update your credit card on fi
+88,le with HQ.
+16,00004567,210815,25000,Dues am
+88,ount includes late fees.
+16,00004567,,25000,
