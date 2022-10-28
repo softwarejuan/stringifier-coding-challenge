@@ -1,0 +1,25 @@
+{
+  "name": "stringifier-coding-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/softwarejuan/stringifier-coding-challenge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/softwarejuan/stringifier-coding-challenge/issues"
+  },
+  "homepage": "https://github.com/softwarejuan/stringifier-coding-challenge#readme",
+  "devDependencies": {
+    "@types/node": "^18.11.7",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.4"
+  }
+}
